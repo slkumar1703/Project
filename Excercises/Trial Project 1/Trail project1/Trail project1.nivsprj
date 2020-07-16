@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="35D40ED61B97CAD233C9A1025B6A6F782A491DDBE2EE72459325CEC04B76613284F6EB88FB43D723CB7870D4ACB2B7418B6D3B3F2E8DAA65418A669D61F45006" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
+		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="6" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="Trail project1.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="13" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="Trail project1.nivsscr" StoragePath="Trail project1.nivsscr" />
+			<SourceFileReference Bindings="EnvoyManager" Id="7e6e9381cfa24b33a2af2c98ae619d6f" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="Trail project1.nivssdf" StoragePath="Trail project1.nivssdf" />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation CustomTitle="Trail project1" xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

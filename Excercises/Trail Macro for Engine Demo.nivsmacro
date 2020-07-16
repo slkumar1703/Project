@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ni.com/VeriStand/WorkspaceMacro">
+	<Version Major="3" Minor="0" Fix="0" Build="0" />
+	<Commands StartTime="2020-05-01T12:42:33.8027787+05:30">
+		<Workspace RelativeTime="6.0351753">
+			<SetChannelValues>
+				<Channel Name="Aliases/EnginePower" Value="1" />
+			</SetChannelValues>
+		</Workspace>
+		<Workspace RelativeTime="17.1468703">
+			<SetChannelValues>
+				<Channel Name="Aliases/DesiredRPM" Value="10000" />
+			</SetChannelValues>
+		</Workspace>
+		<Workspace RelativeTime="29.8534875">
+			<SetChannelValues>
+				<Channel Name="Aliases/DesiredRPM" Value="5000" />
+			</SetChannelValues>
+		</Workspace>
+		<Workspace RelativeTime="41.3924665">
+			<SetChannelValues>
+				<Channel Name="Aliases/DesiredRPM" Value="0" />
+			</SetChannelValues>
+		</Workspace>
+		<Workspace RelativeTime="52.240925">
+			<SetChannelValues>
+				<Channel Name="Aliases/EnginePower" Value="0" />
+			</SetChannelValues>
+		</Workspace>
+	</Commands>
+</Macro>

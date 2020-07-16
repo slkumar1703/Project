@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="11" />
+	<References>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Templates\ExamineSequenceTimingTemplate.nivsseq</Path>
+			<Alias>ExamineSequenceTimingTemplate</Alias>
+		</Reference>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Templates\StimulusAndMonitorTemplate.nivsseq</Path>
+			<Alias>StimulusAndMonitorTemplate</Alias>
+		</Reference>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Timing\Wait.nivsseq</Path>
+			<Alias>Wait</Alias>
+		</Reference>
+	</References>
+	<Variables>
+		<ReturnType>
+			<Identifier>Pass</Identifier>
+			<DefaultValue xsi:type="DoubleValue">
+				<Value>0</Value>
+			</DefaultValue>
+		</ReturnType>
+		<Parameters>
+			<ParameterDeclaration>
+				<Description>time</Description>
+				<Identifier>output</Identifier>
+				<DefaultValue xsi:type="I32Value">
+					<Value>2</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="" />
+			</ParameterDeclaration>
+		</Parameters>
+		<LocalVariables />
+		<ChannelReferences />
+	</Variables>
+	<Code>
+		<Setup>
+			<Body />
+		</Setup>
+		<Main>
+			<Body>
+				<Statement xsi:type="Expression">
+					<ExpressionString>output = 2</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Wait(500)</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Pass = output</ExpressionString>
+				</Statement>
+			</Body>
+		</Main>
+		<CleanUp>
+			<Body />
+		</CleanUp>
+	</Code>
+</RealTimeSequence>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="TRML.xsl"?>
+<TestResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="6c610142-a5ac-4b45-899c-3dab5b6e07df" xmlns="urn:IEEE-1636.1:2013:TestResults">
+	<Personnel>
+		<SystemOperator ID="KUMARLAPTOP\laksh" />
+	</Personnel>
+	<References>
+		<Reference uuid="582fb622-d3ec-403b-9f91-35a339e1921e" name="Stimulas profiel1">
+			<Text xmlns="urn:IEEE-1671:2010:Common">D:\Kumar\Training\Veristand\Training\Stimulas profiel1.nivsstimprof</Text>
+		</Reference>
+	</References>
+	<ResultSet endDateTime="2020-05-06T12:49:32.4024669+05:30" startDateTime="2020-05-06T12:49:32.3485758+05:30" name="D:\Kumar\Training\Veristand\Training\Test Results\UUT 1\Stimulas profiel1 Test Result.xml" ID="Test Result">
+		<Outcome value="Failed" />
+		<Test endDateTime="2020-05-06T12:49:32.3495741+05:30" startDateTime="2020-05-06T12:49:32.3495741+05:30" name="Setup" ID="Setup">
+			<Outcome value="Passed" />
+		</Test>
+		<TestGroup endDateTime="2020-05-06T12:49:32.3495741+05:30" startDateTime="2020-05-06T12:49:32.3495741+05:30" name="Main" ID="Main">
+			<Outcome value="Failed" />
+			<Test endDateTime="2020-05-06T12:49:32.3515691+05:30" startDateTime="2020-05-06T12:49:32.3495741+05:30" name="Call RealTimeSequence: real time seq ex1.nivsseq" ID="Main/Call RealTimeSequence: real time seq ex1.nivsseq">
+				<Outcome value="Failed" qualifier="NI VeriStand: Failed to open a connection to NI VeriStand.exe.&#xD;&#xA;Details: Could not connect to the VeriStand server.  Make sure you have the correct address to the gateway, the gateway is running, and any firewalls are configured correctly before attempting to connect." />
+			</Test>
+		</TestGroup>
+		<Test endDateTime="2020-05-06T12:49:32.3525654+05:30" startDateTime="2020-05-06T12:49:32.3525654+05:30" name="Clean Up" ID="Clean Up">
+			<Outcome value="Passed" />
+		</Test>
+	</ResultSet>
+	<TestDescription>
+		<Definition version="1_0_0_0" xmlns="urn:IEEE-1671:2010:Common">
+			<Identification>
+				<ModelName>_</ModelName>
+			</Identification>
+		</Definition>
+	</TestDescription>
+	<UUT>
+		<SerialNumber xmlns="urn:IEEE-1671:2010:Common">UUT 1</SerialNumber>
+	</UUT>
+</TestResults>
